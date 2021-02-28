@@ -1,0 +1,148 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-evenly
+}
+
+#bottomfirst {
+    flex: 1;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+#bottomsecond {
+    flex: 1;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#bottomthird {
+    flex: 1;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+#first {
+    flex: 2;
+    margin: 10px;
+}
+
+#second {
+    flex: 1;
+    margin: 10px;
+}
+
+#longCardSkeletonCont {
+    margin-top: 5px;
+    display: flex;
+}
+
+@media screen and (max-width: 1500px) {
+    #medium_card_skeleton {
+        height: 380px;
+    }
+    #classic_card_skeleton {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #medium_card_skeleton {
+        height: 350px;
+    }
+    #classic_card_skeleton {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #medium_card_skeleton {
+        height: 300px;
+    }
+    #classic_card_skeleton {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #medium_card_skeleton {
+        height: 200px;
+    }
+    #classic_card_skeleton {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #top {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #bottom {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    #first {
+        flex: 1;
+        margin: 10px;
+    }
+    
+    #second {
+        flex: 1;
+        margin: 10px;
+    }
+    
+    #bottomfirst {
+        flex: 1;
+        margin-top: 10px;
+        margin: 10px;
+    }
+    
+    #bottomsecond {
+        margin: 10px;
+        flex: 1;
+        margin-top: 0px;
+    }
+    
+    #bottomthird {
+        flex: 1;
+        margin-top: 10px;
+        margin: 10px;
+    }
+
+    #medium_card_skeleton {
+        height: 320px;
+    }
+    #classic_card_skeleton {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #medium_card_skeleton {
+        height: 260px;
+    }
+    #classic_card_skeleton {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    #medium_card_skeleton {
+        height: 150px;
+    }
+    #classic_card_skeleton {
+        height: 200px;
+    }
+}
